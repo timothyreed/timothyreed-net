@@ -1,9 +1,12 @@
 body {
   font-family: 'Inter', sans-serif;
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.8;
 }
 
 a {
-  color: #1d4ed8;
+  color: #1db3d8;
 }
 
 a:hover {
@@ -24,9 +27,62 @@ section {
 
 /* Hover scale for list items */
 li {
-  transition: transform 0.3s ease;
+  transition: none;
 }
 
 li:hover {
-  transform: scale(1.05);
+  transform: none;
 }
+
+.logo {
+  max-height: 50px;
+  width: auto;
+}
+
+.profile-pic {
+  border-radius: 05%;
+  max-width: 150px;
+  height: auto;
+}
+
+
+/* CSS */
+.button {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button:focus-visible {
+  box-shadow: none;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 40px;
+}
+
